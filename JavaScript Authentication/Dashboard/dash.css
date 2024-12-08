@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  border-radius: 5px;
+  margin-top: 10px;
+  list-style-type: none;
+   
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  
+  ul li.checked {
+    background: #888;
+    color: #fff;
+ 
+  }
+  
+
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+ 
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+
+  .header {
+    background-color: #2e2d28;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+ 
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+body{
+background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231025/pngtree-black-textured-background-pocket-planner-blank-to-do-list-with-checklist-image_13709565.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#board {
+  width: 40%;
+  margin: auto;
+  border-radius: 20px;
+}
+  h1 {
+    text-align: center;
+    color: white;
+  }
+#myDIV{
+  border-radius: 10px;
+}  
+
+#logOut{
+  width: 60%;
+  line-height: 30px;
+  margin-top: 30px;
+  color: white;
+  background-color: #f44336;
+  margin-left: 15%;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid rgb(237, 229, 229);
+}
+
+
+h3{
+  text-align: center;
+}
+@media(max-width:630px){
+  ul li{
+    padding: 6px 4px 6px 10px;
+    background: #eee;
+    font-size: 9px;
+  margin-top: 5px;
+  }
+  h2{
+    font-size: 12px;
+  }
+  input {
+    padding: 5px;
+    float: left;
+    font-size: 8px;
+  }
+  .addBtn{
+    padding: 5px;
+    font-size: 8px;
+  }
+  #logOut{
+    font-size: small;
+  }
+}

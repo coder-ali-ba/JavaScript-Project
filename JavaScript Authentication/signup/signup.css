@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/office-desk-workspace-bright-color-yellow-background_169016-38713.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#sign {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 350px;
+    /* height: 80vh;  */
+    margin: auto; 
+    /* background-color: tan; */
+}
+#sign h1 {
+    text-align: center;
+}
+#subBut {
+    text-align: center;
+}
+#signSub {
+    width: 85%;
+    margin-left: 7%;
+    margin-bottom: 10px;
+}

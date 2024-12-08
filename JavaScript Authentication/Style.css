@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#main .div1 {
+width: 50%;
+height: 100vh;
+text-align: center;
+padding-top: 3%;
+background-color: rgb(252, 182, 194);
+}
+ .div1  img{
+width: 100%;
+height: 100%;
+}
+#main #div2 {
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(252, 182, 194);
+    padding-top: 70px;
+}
+
+#div2 h1 {
+    
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    margin-left: 80px;
+}
+
+
+
+#div2 button {
+    margin-top: 30px;
+}
+
+#logBut {
+    margin-left: 100px;
+    padding: 10px  50px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+#signBut {
+    padding: 10px  50px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+@media(max-width:1028px){
+    #div2{
+        padding-top: 50px;
+    }
+    #div2 h1 {
+        font-family: Arial, sans-serif;
+        font-size: 60px;
+        margin-left: 40px;
+    }
+    #div2 button {
+        margin-top: 15px;
+    }
+    #div2 p {
+        font-size: 1rem;
+    }
+    #logBut #signBut {
+        margin-left: 60px;
+        padding: 6px  30px; 
+        font-size: 12px;
+    }
+    .div1 img {
+        height: 80%;
+    }
+}
+@media(max-width:890px){
+    #div2{
+        padding-top: 15px;
+    }
+    #div2 h1 {
+    
+        font-family: Arial, sans-serif;
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    #div2 button {
+        margin-top: 30px;
+    }
+    #div2 p {
+        font-size: 1rem;
+    }
+    /* #logBut ,#signBut {
+       
+        padding: 5px  20px; 
+        font-size: 12px;
+    } */
+    #logBut{
+        margin-left: 0px;
+    }
+
+    #main .div1{
+    padding-top: 100px;
+    }
+    #main #div2{
+        padding-top: 40px;
+    }
+    #div2 img {
+        margin-top: 10px;
+        height: 0px;
+        height: 70px;
+    }
+
+}
+
+@media(max-width:677px){
+    #logBut, #signBut {
+        padding: 7px  25px ; 
+        font-size: 1rem;
+        
+    }
+    #logBut{
+        margin-left: 0px;
+    }
+    #div2 h1 {
+    
+        font-family: Arial, sans-serif;
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    #div2 p {
+        font-size: 0.9rem;
+    }
+    #div2 img {
+        margin-top: 7px;
+        height: 0px;
+        height: 50px;
+    }
+    .div1 img {
+        height: 75%;
+
+    }
+    #main .div1{
+        padding-top: 70px;
+        }
+}
+@media(max-width:439px){
+    #logBut, #signBut {
+        padding: 4px  20px ; 
+        font-size: 0.9rem;
+        
+    }
+    #div2 h1 {
+    
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #div2 p {
+        font-size: 0.7rem;
+    }
+    .div1 img {
+        height: 70%;
+
+    }
+    #main .div1{
+        padding-top: 40px;
+        }
+}
+@media(max-width:370px){
+    #logBut, #signBut {
+        padding: 3px  15px ; 
+        font-size: 0.7rem;
+        font-weight: initial;
+        border-radius: 2px;
+    }
+}
